@@ -38,5 +38,29 @@ The dispersion of observations around the regression line highlights that proper
 Overall, apartment size is a key, but not exclusive, determinant of residential real estate pricing.
 ![Price vs Size](price_vs_size.png)
 
+## Interpretation of the Regression Plot
+
+The scatter plot with the regression line confirms a clear positive relationship between apartment size and total price. As the number of square meters increases, property prices tend to rise accordingly.
+
+The upward-sloping trend line indicates that apartment size is a significant driver of total valuation. However, the visible dispersion of data points suggests that properties of similar size may still vary considerably in price, highlighting the influence of additional factors such as location, building standard, and amenities.
+
+Overall, size represents a key structural determinant of price, though it does not fully explain market variability.
+
+## Relationship Between Number of Rooms and Price
+
+The analysis indicates a positive relationship between the number of rooms and apartment price. Properties with more rooms generally achieve higher total prices, which is also reflected in the increasing average price across room segments.
+
+The Pearson correlation coefficient of 0.425 suggests a moderate positive association — the number of rooms contributes to price variation, but its explanatory power is weaker than apartment size. This is expected, as the number of rooms is often correlated with square meters, and price differences are additionally driven by location and property standard.
+
+Overall, room count is a relevant pricing factor, but it should be interpreted together with apartment size and other property attributes.
+
+![Average Price by Number of Rooms](price_vs_rooms.png)
+## Relationship Between Number of Rooms and Price
+
+The bar chart presents the average apartment price by number of rooms. The results show a clear upward trend — properties with a higher number of rooms achieve higher average market prices.
+
+This confirms that room count is an important structural determinant of total property value. However, its impact is partially driven by its correlation with apartment size, which remains the primary pricing factor.
+
+From a business perspective, room segmentation can support pricing strategy and market positioning, particularly when targeting specific buyer groups.
 
 
