@@ -164,6 +164,7 @@ def run_eda(full_df):
     plt.title("Price vs Distance from Centre (Trend Line)")
     plt.xlabel("Distance from centre")
     plt.ylabel("Price")
+    plt.savefig("price_vs_distance.png", dpi=300)
     plt.show()
 
     #korelacja
@@ -282,5 +283,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
