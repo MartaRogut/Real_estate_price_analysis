@@ -81,5 +81,35 @@ The substantial dispersion of observations across all distance levels suggests t
 Overall, distance from the city centre appears to have limited standalone explanatory power in this dataset.
 
 
+## Impact of Amenities on Apartment Price
+Section Overview
+
+This analysis evaluates how selected building amenities influence apartment prices.
+The comparison is based on average price differences between properties with and without a given amenity.
+![Amenities Price Premium](amenities_price_premium.png)
+
+## Chart Description
+
+The bar chart presents the average apartment price depending on the presence of specific amenities.
+The results indicate that amenities enhancing comfort and security — such as:
+
+elevator access,
+
+security services,
+
+parking space availability
+
+are associated with higher average property prices.
+A higher bar for properties with a given amenity suggests the presence of a price premium. This confirms that building standard and functional improvements are positively valued by the market.
+
+## Business Insight
+
+From a market perspective, amenities act as value-enhancing differentiators.
+
+Investments in building infrastructure and security features may translate into measurable price premiums, making them strategically relevant for developers, property investors, and sellers aiming to optimize pricing and competitiveness.
+
+
+
+
 
 
