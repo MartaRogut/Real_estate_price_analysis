@@ -132,6 +132,23 @@ This justifies the use of a multivariate predictive model rather than relying on
 
 
 
+## Predictive Model (Linear Regression)
+
+A linear regression model was built to estimate apartment prices based on structural and building-related features (size, rooms, distance to centre, floor, build year, and selected amenities).
+
+Model performance:
+- R²: 0.38
+- MAE: ~164,000 PLN
+
+The results suggest that apartment size and building amenities (especially elevator and security) have the strongest impact on predicted price. The model captures general pricing patterns, but the remaining unexplained variance indicates that additional factors (e.g., neighborhood-level location, property condition, finishing standard) are likely required for higher predictive accuracy.
+
+![Feature Impact](model_feature_impact.png)
+
+![Actual vs Predicted](actual_vs_predicted.png)
+
+
+
+
 
 
 
