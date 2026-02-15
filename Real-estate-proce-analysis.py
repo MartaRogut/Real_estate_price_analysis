@@ -257,6 +257,24 @@ def train_model(full_df):
     coefficients = pd.Series(model.coef_, index=features)
     print(coefficients.sort_values(ascending=False))
 
+    plt.figure(figsize=(8,6))
+    coefficients.sort_values().plot(kind="barh")
+    plt.title("Feature Impact on Apartment Price (Linear Regression)")
+    plt.xlabel("Coefficient value")
+    plt.tight_layout()
+    plt.savefig("model_feature_impact.png", dpi=300)
+    plt.show()
+
+    plt.figure(figsize=(6,6))
+    plt.scatter(y_test, y_pred, alpha=0.3)
+    plt.xlabel("Actual Price")
+    plt.ylabel("Predicted Price")
+    plt.title("Actual vs Predicted Prices")
+    plt.tight_layout()
+    plt.savefig("actual_vs_predicted.png", dpi=300)
+    plt.show()
+
+
     return coefficients, y_test, y_pred
 
 
@@ -287,6 +305,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
