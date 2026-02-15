@@ -147,6 +147,18 @@ The results suggest that apartment size and building amenities (especially eleva
 ![Actual vs Predicted](actual_vs_predicted.png)
 
 
+## Final Conclusions
+
+This end-to-end real estate price analysis project explored the structural and locational drivers of apartment pricing in Poland. Through thorough data cleaning, exploratory data analysis, correlation assessment, and predictive modeling, we identified key factors influencing market valuation.
+
+The results demonstrate that apartment size and building amenities (elevator, security, parking) are significant drivers of price, while distance from the city centre exhibited a comparatively weaker relationship. The predictive model captured major pricing trends and highlighted how different features contribute to price variation.
+
+Although the model explains a portion of price variability, the remaining unexplained variance suggests that additional detailed locational features (e.g., neighborhood, accessibility) and qualitative property characteristics (e.g., condition, finish level) could further enhance predictive accuracy.
+
+Overall, this project showcases a structured analytical workflow and provides actionable insights for stakeholders in real estate analytics, pricing strategy development, and property valuation.
+
+
+
 
 
 
