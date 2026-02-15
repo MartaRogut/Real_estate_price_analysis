@@ -103,6 +103,9 @@ def run_eda(full_df):
     plt.ylabel("Price")
     plt.show()
 
+    plt.savefig("price_vs_size.png", bbox_inches="tight")
+
+
     # korelacja
     correlation = full_df["squareMeters"].corr(full_df["price"])
     print("Correlation between size and price:", correlation)
@@ -278,3 +281,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
